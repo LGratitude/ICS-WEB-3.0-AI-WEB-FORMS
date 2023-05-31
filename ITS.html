@@ -17,46 +17,47 @@
 </head>
 
 <body class="bg-dark text-light">
+    <!-- navbar -->
+    <nav class="navbar  sticky-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="./images/UJ_black-removebg-preview.png" alt="UJ-img" width="100"
+                    height="100"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="mainForms.html">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-light me-5">Staff</button>
+                    <button type="button" class="btn btn-outline-light">Student</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Title -->
     <section id="ITS_Hero_Section">
         <div class="container">
-            <!-- navbar -->
-            <nav class="navbar  sticky-top navbar-expand-lg bg-dark" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"> <img src="./images/UJ_black-removebg-preview.png" alt="UJ-img"
-                            width="100" height="100"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="mainForms.html">Solutions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="features.html">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="pricing.html">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="col-md-3 text-end">
-                            <button type="button" class="btn btn-light me-5">Staff</button>
-                            <button type="button" class="btn btn-outline-light">Student</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
         </div>
 
         <!-- Body content of the hero section -->
@@ -77,16 +78,16 @@
                                 </div>
 
                                 <hr>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row d-inline-flex justify-content-evenly mx-auto">
+                                    <div class="col-lg-6 pb-3">
                                         <input type="text" class="form-control" placeholder="First name"
                                             aria-label="First name(s)">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-lg-6">
                                         <input type="text" class="form-control" placeholder="Last name"
                                             aria-label="Last name">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-lg-6 pt-3 ">
                                         <input type="text" class="form-control" placeholder="Faculty/Department"
                                             aria-label="Faculty/Department">
                                     </div>
@@ -102,12 +103,12 @@
                                 </div>
                                 <hr>
                                 <h6>HEAD OF FACULTY ADMINISTRATION/ SENIOR MANAGER/ DIRECTOR</h6>
-                                <div class="row">
-                                    <div class="col">
+                                <div class="row d-inline justify-content-around mx-auto">
+                                    <div class="col-lg-6 pb-3">
                                         <input type="text" class="form-control" placeholder="First name"
                                             aria-label="First name(s)">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-lg-6">
                                         <input type="text" class="form-control" placeholder="Last name"
                                             aria-label="Last name">
                                     </div>
@@ -118,11 +119,11 @@
                                             rows="3"></textarea>
                                     </div>
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col pb-3">
                                             <input type="text" class="form-control" placeholder="Faculty/Department"
                                                 aria-label="Faculty/Department">
                                         </div>
-                                        <div class="col">
+                                        <div class="col pb-3">
                                             <input type="date" class="form-control" name="date-field" />
                                         </div>
                                     </div>
@@ -137,10 +138,10 @@
                 </div>
             </div>
         </div>
-
     </section>
-
-
+    <section>
+        <div class="container"></div>
+    </section>
 
     <!-- Footer -->
     <section id="footer">
